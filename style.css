@@ -2,6 +2,18 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: xx-large;
+
+}
+
+p {
+    font-size: large;
+
+}
+
+
+
 body {
     margin: 0px;
 }
@@ -10,9 +22,13 @@ body {
     color: orange;
 }
 
+.banner-image {
+    width: "100vw"
+}
+
 .first-banner {
     display: flex;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .first-part {
@@ -42,4 +58,60 @@ body {
 .middle-banner {
     background-image: url(images/shapes/Frame\ 58.jpg);
     background-repeat: no-repeat;
+}
+
+.recipies {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+
+
+
+
+
+.recipie-container {
+    display: grid;
+    padding: 0 10%;
+    margin-bottom: 30px;
+    box-shadow: 10px 20px 50px gray;
+    border-radius: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.recipie-card{
+    grid-row: 1/2;
+    width:90%;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.recipie-image {
+    height: 300px;
+    width: 100%
+}
+.final-part5 {
+    box-shadow: 20px 40px 100px gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0% 5%;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+.footer {
+    text-align: center;
+    margin-top: 5%;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+
 }
